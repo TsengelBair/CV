@@ -73,6 +73,7 @@ const Modal = ({ active, setActive, selectedService }) => {
                 value={sliderValue}
                 className="slider__range"
                 onChange={handleSliderChange}
+                data-testid="slider"
               />
               <p className="calculator__slider-text calculator_silder-text-1">
                 Amount: <span>{sliderValue}</span>
